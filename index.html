@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Compression App</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  
+  <h1>Image Compressor</h1>
+  <input type="file" id="fileInput" accept="image/*">
+  <label  for="fileInput" class="uploadBtn"></label> upload</label>
+  <div class="image-box">
+  <div id="imagePreview"></div>
+  </div>
+  <div class="push">
+  <label for="qualityRange">Quality:</label>
+  <input type="range" id="qualityRange" min="0" max="1" step="0.1" value="0.8">
+  </div>
+  
+  <button id="compressBtn">Compress Image</button>
+  <div class="dow1">
+  <a class="btn" id="downloadLink" download>Download Compressed Image</a>
+ 
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
